@@ -1,6 +1,6 @@
 import { useCart } from "../context/CartContext";
-// import services from "../data/services";
-import services from "../data/Services";
+import services from "../data/services";
+
 
 function Home() {
   const { addToCart } = useCart();
